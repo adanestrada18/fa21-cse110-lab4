@@ -34,3 +34,8 @@
 15. == is a regular comparison which allows for type conversions whereas === is a strict comparison which does not allow for type conversions
 
 17. first modify array will be called with the given parameters. A new array will be created. We will then iterate through the [1,2,3] array one at a time, first taking the "1" from the array, and the doSomething function will be called. The doSomething function will simply multiply this value by 2, and ultimately returns 2 here. Finally, this 2 will be pushed to the array we defined above. This iteration will happen 3 times, and we will finally return the array [2,4,6].
+
+19. 1
+    3
+    2
+    4
