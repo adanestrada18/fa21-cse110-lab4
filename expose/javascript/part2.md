@@ -8,7 +8,7 @@
 8. This function return the array [50,100,150] as expected as the discounted variable is defined properly and let is viable in this scope.
 9. There will be a reference error because i is not defined in the scope outside of the for loop
 10. Console will return 3, as this is how it was defined originally. 
-11. The function will return an empty array as it was defined as a constant empty array from the beginning of the function. However, there will be errors, specifically in line 8, when we are trying to update the array because it is defined as a constant and therefore cannot be changed.
+11. The function will return [50,100,150]. Even though the array is defined as constant, we can still manipulate the array.
 12. a. student.name
     b. student[Grad Year]
     c. student.greeting()
